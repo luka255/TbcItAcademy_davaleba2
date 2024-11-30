@@ -21,9 +21,7 @@ class MathOperations {
         }
         var maxList = mutableListOf<Int>()
 
-        if(list_1.size > list_2.size)
-            maxList = list_1
-        else if (list_2.size == list_1.size)
+        if(list_1.size > list_2.size || list_2.size == list_1.size)
             maxList = list_1
         else
             maxList = list_2
@@ -32,8 +30,6 @@ class MathOperations {
 
         if(list_1.size < list_2.size)
             minList = list_1
-        else if (list_2.size == list_1.size)
-            minList = list_2
         else
             minList =  list_2
 

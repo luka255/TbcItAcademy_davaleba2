@@ -1,7 +1,7 @@
 fun main() {
     val obj = MathOperations()
 
-    println(obj.gcf(10,20))
+    println(obj.gcf(10,15))
     println(obj.lcm(10,20))
     println(obj.sumOfEvenHundred())
     println(obj.getSymbol("string\$includes"))
